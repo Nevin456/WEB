@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import url("54.css");
+/* CSS Document */
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a:hover{
+	background-color:darkred;
+}
+
+}
+
+.zoom{
+	padding: 50px;
+	transition: transform.2s;
+	width:75px;
+	height:75px;
+	margin:0 auto;
+}
+
+.zoom1 img{
+	width: 100%;
+	height: 100%;
+	transition:all 2s ease-in-out;
+	
+}
+
+.zoom1:hover img{
+	transform: scale(2,2)
+}
+
+} img.zoom1:hover{
+	transform: scale(1.5);
+}
